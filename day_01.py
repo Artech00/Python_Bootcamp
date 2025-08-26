@@ -67,8 +67,8 @@ print(len(intention))  # string-ի երկարությունը
 word = "Hello"
 
 # Indexing
-print(word[0])  # 'H' (առաջին սիմվոլը, index=0)
-print(word[-1])  # 'o' (վերջին սիմվոլը, index=-1)
+print(word[0])  # first element
+print(word[-1])  # last element
 
 # Slicing → word[start:stop:step]
 # - start → index, որտեղից սկսումա slice-ը (default=0)
@@ -179,10 +179,17 @@ print(f"Result: {result:.3f}")  # 3 նիշ կետից հետո (precision=3), no
 print(f"Result: {result:10.5f}")  # total width=10, precision=5, left padded with spaces
 
 # ============================
-# Lesson 18: Lists in Python (օգտագործվում է '[]' -ի հետ)
+# Lesson 18: Lists in Python (օգտագործվում է '[]' -ի հետ (MUTABLE) )
 # ============================
 
 # List-ը դասավորված հաջորդականությունա, որի մեջ կարող ենք պահել տարբեր տիպի օբյեկտներ (ints, strings, floats, etc.)
+# List-ը mutable-ա, այսինքն իրա էլեմենտները կարանք փոխենք
+
+# Example demonstrating mutability
+my_list = [1, 2, 3]  # list
+print(f"Original list: {my_list}")
+my_list[0] = 10  # changing first element in list
+print(f"Modified list: {my_list}")  # Works
 
 # === Simple list ===
 list1 = [1, 2, 3]
