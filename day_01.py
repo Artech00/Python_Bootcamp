@@ -9,7 +9,7 @@
 # list            → list → ցուցակ (MUTABLE) → փոփոխվող է, այսինքն կարելի է փոխել ներսի արժեքները)
 # dictionaries    → dict → բառարան key-value
 # tuples          → tuple → անփոփոխ ցուցակ (IMMUTABLE)
-# sets            → set → հավաքածու (unique items)
+# sets            → set → հավաքածու (MUTABLE)(Unique items)
 # booleans        → bool → True / False արժեքներ
 
 # ===============================
