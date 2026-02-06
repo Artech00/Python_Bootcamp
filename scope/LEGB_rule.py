@@ -1,3 +1,8 @@
+# Local - Inside the current function
+# Enclosing - Inside enclosing functions (from inner to outer)
+# Global - At the top level of the module
+# Built-in - In Python's built-in namespace
+
 x = "global"  # global scope
 
 
